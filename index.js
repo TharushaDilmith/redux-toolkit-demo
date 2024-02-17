@@ -5,7 +5,8 @@ const { iceCreamActions } = require('./features/icecream/iceCreamSlice');
 console.log(store.getState());
 
 //subscribe to the store
-store.subscribe(() => console.log(store.getState()));
+store.subscribe(() => {
+});
 
 //dispatch actions
 store.dispatch(cakeActions.buyCake(2));
